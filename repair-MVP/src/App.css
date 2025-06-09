@@ -1,0 +1,104 @@
+body {
+  background: #f4f6fb;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.repair-form {
+  background: #fff;
+  padding: 2.5rem 2rem 2rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.08);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Zentriert den Inhalt horizontal */
+}
+
+.repair-form h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #29304a;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.form-group {
+  margin-bottom: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center; /* Zentriert Label und Input */
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  color: #4a5666;
+  font-size: 1rem;
+  text-align: left;
+  width: 100%;
+}
+
+.input {
+  padding: 0.55rem 0.9rem;
+  border: 1.5px solid #cdd9ed;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: #f8fafc;
+  color: #2b3145;
+  transition: border 0.2s;
+  width: 100%;
+  max-width: 320px;
+  box-sizing: border-box;
+}
+
+.input:focus {
+  border: 1.5px solid #6c63ff;
+  outline: none;
+  background: #fff;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 0.7rem 0;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(90deg,#6c63ff 40%,#48c6ef 100%);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px 0 rgba(108,99,255,0.08);
+}
+
+.submit-btn:hover {
+  background: linear-gradient(90deg,#48c6ef 40%,#6c63ff 100%);
+}
+
+.preview {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.preview-img {
+  max-width: 180px;
+  max-height: 180px;
+  border-radius: 10px;
+  border: 1.5px solid #e0e7f6;
+  box-shadow: 0 2px 6px 0 rgba(108,99,255,0.07);
+}
